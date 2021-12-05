@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "https://maxim2021us.wixsite.com/maxim-us",
+    "text": "오유진"
+  },
+  "text": {
+    "more": "\u003cp\u003e\nEdge 연결 : Directed\n\u003c/p\u003e\n\n\u003cp\u003e\nNode 크기 : Degree\n\u003c/p\u003e\n\n\u003cp\u003e\nNode 색깔 : 모델과 이미지별 색 구분\n\u003c/p\u003e",
+    "intro": "맥심의 장수 모델의 특징을 알아보기 위한 게피 시각화 결과 중 하나로 해당 시각화는 맥심의 장수모델과 그 모델의 이미지 시각화 결과입니다.",
+    "title": "맥심장수모델과 이미지 형용사 연결망 시각화"
+  },
+  "legend": {
+    "edgeLabel": "이미지형용사의 관계",
+    "colorLabel": "사이중심성",
+    "nodeLabel": "모델, 이미지형용사"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
